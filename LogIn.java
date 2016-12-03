@@ -154,8 +154,8 @@ public class LogIn extends javax.swing.JFrame {
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {                                      
         // TODO add your handling code here:
-        String card = jTextField1.getText();
-        String pin = new String(jPasswordField1.getPassword());
+        String card = jTextField1.getText();card.trim();
+        String pin = new String(jPasswordField1.getPassword());pin.trim();
         int temp = 0,temp2=0;
         if (card.length() == 16) {
             temp = 1;
@@ -187,7 +187,7 @@ public class LogIn extends javax.swing.JFrame {
         System.out.println(con2.toString());
 
         //connecting database cardno
-        String query1 = " select pin from atm where CardNumber=\"" + card + "\";";
+        String query1 = " select pin,name from atm where CardNumber=\"" + card + "\";";
         System.out.println("Query :" + query1);
         String qwerty = "";
         try {
