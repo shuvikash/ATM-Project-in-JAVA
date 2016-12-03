@@ -119,6 +119,7 @@ public void setValue(String card, String pin) {
             catchup(with);
         } catch (Exception e) {
         }
+             jTextField1.setText("");
          }
          else
              JOptionPane.showMessageDialog(null, "Incorrect Data");
