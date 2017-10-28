@@ -18,7 +18,7 @@ public class Project extends javax.swing.JFrame {
      */
     public Project() {
         initComponents();
-        getContentPane().setBackground(new Color(204,204,255));
+        getContentPane().setBackground(new Color(204,204,254));
         
     }
 
