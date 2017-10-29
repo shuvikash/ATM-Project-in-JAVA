@@ -34,8 +34,8 @@ public class Welcome extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel2.setBackground(new java.awt.Color(102, 255, 102));
-        jLabel2.setFont(new java.awt.Font("Verdana", 1, 36)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 51, 51));
+        jLabel2.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 50, 50));
         jLabel2.setText("WELCOME");
         jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
@@ -53,8 +53,8 @@ public class Welcome extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(204, 0, 0));
-        jButton2.setForeground(new java.awt.Color(0, 51, 255));
+        jButton2.setBackground(new java.awt.Color(205, 0, 0));
+        jButton2.setForeground(new java.awt.Color(0, 5, 255));
         jButton2.setText("LOG IN");
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
