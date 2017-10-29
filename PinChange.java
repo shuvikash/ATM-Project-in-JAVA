@@ -58,7 +58,8 @@ public void setValue(String card, String pin,MenuChoice ob) {
         jLabel1.setText("CURRENT PASSWORD");
 
         jLabel2.setFont(new java.awt.Font("Arial Rounded MT Bold", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 51, 153));
+      
+       jLabel12.setForeground(new java.awt.Color(0,0,255));
         jLabel2.setText("NEW PASSWORD");
 
         jPasswordField1.setForeground(new java.awt.Color(255, 0, 0));
